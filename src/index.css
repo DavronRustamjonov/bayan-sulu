@@ -1,0 +1,433 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1440px;
+  padding: 0 60px ;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.heart{
+  transition: all 0.3s ease;
+}
+.heart:hover{
+  color: #CB4A4A !important;
+}
+.menu__container{
+  display: flex;
+  margin-top: 170px;
+ }
+ .menu__item{
+   width: 300px;
+   padding: 32px 20px;
+   border-radius: 10px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 10px 0px #0000001A;
+   margin-top: 16px;
+ }
+ .menu__list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .menu__top-link{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 26.1px;
+   text-align: left;
+   color: #1D1D1D;
+   opacity: 50%;
+   text-decoration: none;
+   &:hover{
+     color: #618C78;
+     opacity: 100%;
+   }
+ }
+ .menu__text{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;  
+   color: #1D1D1D;
+ }
+ .menu__left-link{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 26.1px;
+   text-align: left;
+   color: #1D1D1D;
+   opacity: 50%;
+   text-decoration: none;
+ }
+ .menu__subtext{
+   font-family: Ubuntu;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20.3px;
+   text-align: left;
+   color: #1D1D1D;
+   opacity: 50%;  
+ }
+ .menu__next-text{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;  
+   color: #1D1D1D;
+   margin-top: 20px;
+ }
+ .acc__top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+ }
+ .acc__bottom{
+   max-height: 0;
+   overflow: hidden;
+   transition: all 0.5s cubic-bezier(0,1,0,1);
+ }
+ .acc__bottom.show{
+   max-height: 9999px;
+   height: auto;
+   transition: all 0.5s cubic-bezier(0,1,0,1);
+   margin-top: 20px;
+ }
+ .menu__icon{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #618C78;
+   color: #FFFFFF;
+   align-items: center;
+   padding: 2.5px 2.5px;
+ }
+ .menu__add{
+   width: 15px;
+   height: 15px;
+ }
+ .menu__checkbox-text{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;  
+   color: #1D1D1D;
+   opacity: 50%;
+ }
+ .menu__sena{
+   font-family: Ubuntu;
+   background: #F9F9F9;
+   width: 120px;
+   height: 40px;
+   border-radius: 10px;
+   padding: 12px 43px;  
+ }
+ .anticon{
+   color: #000000;
+   opacity: 25%;
+   margin-right: 8px;
+ }
+ .anticon:hover{
+   color: #618C78;
+   opacity: 100%;
+ }
+ .card__container{
+   width: 220px;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   box-shadow: 0px 0px 10px 0px #0000001A;
+   padding: 20px 0 !important;
+   margin: 15px 15px 0 0;
+ }
+ .card__list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .card__wrap{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 23.4px;
+   text-align: left;
+   color: #FFFFFF;
+   background-color: #618C78;  
+   padding: 0 25px;
+ }
+ .card__title{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;
+   color: #1D1D1D;
+   margin-top: 30px;
+   margin-left: 20px;  
+ }
+ .card__subtext{
+   font-family: Ubuntu;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.6px;
+   text-align: left;
+   margin-top: 5px;  
+   margin-left: 20px;
+ }
+ .card__img{
+   display: grid;
+   justify-content: center;
+   list-style: none;
+   margin-top: 20px;
+ }
+ .card__wrapper{
+   display: flex;
+   align-items: center;  
+   margin-top: 10px;
+ }
+ .card__text{
+   font-family: Ubuntu;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.6px;
+   text-align: left;
+   color: #1D1D1D;
+   opacity: 50%;  
+   margin-left: 3px;
+   margin-top: 10px;
+ }
+ .card__btext{
+   font-family: Ubuntu;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19.6px;
+   text-align: left;
+   color: #1D1D1D;
+   opacity: 50%;  
+   margin-left: 3px;
+   margin-top: 10px;
+ }
+ .card__color-text{
+   font-family: Ubuntu;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 14px;
+   text-align: left;
+   color: #FFFFFF;  
+ }
+ .card__price{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;  
+ }
+ .menu__right-title{
+   font-family: Ubuntu;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 52px;
+   text-align: left;
+   color: #1D1D1D;  
+ }
+ .menu__right-text{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;
+   color: #1D1D1D;  
+ }
+ .menu__link{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;
+   color: rgba(29, 29, 29,0.5);
+   margin-left: 10px;
+   &:hover{
+     opacity: 100%;
+     color: #618C78;
+   }  
+ }
+ .menu__right-list{
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+ }
+ .menu__cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   width: 100%;
+ }
+ .menu__right{
+   margin-left: 20px;
+   margin-top: 30px; 
+   width: 1200px;
+   margin-bottom: 30px;
+ }
+ .hidden__box{
+   width: 135px;
+   height: 50px;
+   align-content: center;
+   border: 2px solid rgba(29, 29, 29,0.3);
+   position: relative;
+   padding: 0 10px;
+   margin: 20px 5px;
+   flex-wrap: wrap;
+ }
+ .hidden{
+   display: none;
+   margin-top: 70px;
+ }
+ .hidden__bottom{
+   display: flex;
+   flex-wrap: wrap;
+   width: 320px;
+ 
+ }
+ .hidden__list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .hidden__text{
+   font-family: Ubuntu;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.15000000596046448px;
+   text-align: left;
+   color: #1D1D1D;  
+ }
+ .hidden__subtext{
+   font-family: Ubuntu;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0.4000000059604645px;
+   text-align: left;
+   color: #618C78;  
+   background-color: #FFFFFF;
+   position: absolute;
+   top: -11px;
+   padding: 2px;
+ }
+ .hidden__icon{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #618C78;
+   color: #FFFFFF;
+   align-items: center;
+   padding: 2.5px 2.5px;
+   cursor: pointer;
+ }
+ .hidden__add{
+   width: 15px;
+   height: 15px;
+ }
+ .hidden__btn{
+   font-family: Ubuntu;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 25.2px;
+   text-align: center;
+   color: #FFFFFF;  
+   width: 280px;
+   height: 50px;
+   cursor: pointer;
+   border: none;
+   margin:30px 5px;
+   border-radius: 10px;
+   background: #CB4A4A;
+ }
+ .newcard__container{
+   width: 135px;
+   padding: 10px 0;
+ }
+ .newcard__list{
+   display: flex;
+ }
+ .newcard__toplist{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .newcard__wrap{
+   font-family: Ubuntu;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 15.6px;
+   text-align: left;
+   background-color: #618C78;
+   color: #FFFFFF;  
+   padding: 0 3px;
+ }
+ .newcard__img{
+   width: 66px;
+   height: 89px;
+   margin: 5px auto ;
+ }
+ .newcard__title{
+   font-family: Ubuntu;
+   font-size: 12px;
+   font-weight: 400;
+   text-align: left;
+   margin-top: 5px;
+   margin-left: 5px;
+ }
+ .newcard__text{
+   font-family: Ubuntu;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16.8px;
+   text-align: left;
+   color: rgba(29, 29, 29,0.5);  
+   margin-left: 5px;
+ }
+ @media(max-width:900px){
+   .menu__left{
+     display: none;
+   }
+   .menu__container{
+     display: block;
+     
+   }
+   .menu__right{
+     display: none;
+   }
+   .hidden__bottom{
+     margin: 0 auto ;
+     justify-content: center;
+   }
+   .newcard__container{
+     padding: 10px 0 !important;
+     margin: 5px 5px 5px 5px !important;
+   }
+   .container{
+     margin: 0 auto;
+     padding: 0 ;
+   }
+   .hidden{
+     display: block;
+   }
+ }

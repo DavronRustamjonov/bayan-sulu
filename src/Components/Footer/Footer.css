@@ -1,0 +1,75 @@
+.footer{
+    background: #F2F2F2;
+}
+.footer-container{
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-lead{
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 700;
+line-height: 23.4px;
+text-align: left;
+color: #1D1D1D;
+margin-bottom: 16px;
+
+}
+.footer-list{
+    width: 185px;
+    display: grid;
+}
+.footer-item{
+    margin: 8px 0px;
+}
+.footer-link{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    color: #1D1D1D;
+}
+.footer-text{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.3px;
+    text-align: left;
+    color:#1D1D1D; 
+}
+.footer-bottom-icon{
+    font-size: 30px !important;
+    color: #727272;
+    transition: all 03.s ease;
+}
+.footer-bottom-icon:hover{
+    color: #618C78;
+}
+
+@media(max-width:900px){
+    .footer-mobile{
+        display: none;
+    }
+    .footer-list{
+        width: 240px;
+        margin-top: 20px;
+    }
+    .footer-container{
+        display: grid;
+        justify-content: center;
+    }
+}
+@media(max-width:750px){
+    .footer-container{
+        justify-content: space-evenly;
+    }
+}
+@media(max-width:380px){
+    .footer-container{
+       text-align:center;
+    }
+}

@@ -1,0 +1,93 @@
+.card__container{
+    width: 270px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    padding: 20px 0 !important;
+    margin: 35px 35px 0 0;
+    padding-right: 20px !important;
+  }
+  .card__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card__wrap{
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #618C78;  
+    padding: 3px 20px;
+  }
+  .card__title{
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #1D1D1D;
+    margin-top: 30px;
+    margin-left: 20px;  
+  }
+  .card__subtext{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    margin-top: 5px;  
+    margin-left: 20px;
+  }
+  .card__img{
+    display: grid;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .card__wrapper{
+    display: flex;
+    align-items: center;  
+    margin-top: 10px;
+  }
+  .hardIcon{
+    color: #c1c1c1;
+    transition: all 0.3s ease;
+  }
+  .schStar{
+    color: #c1c1c1;
+  }
+  .hardIcon:hover{
+    color: #CB4A4A;
+  }
+  .card__text{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: #1D1D1D;
+    opacity: 50%;  
+    margin-left: 3px;
+    margin-top: 10px;
+  }
+  .card__color-text{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #FFFFFF;  
+  }
+  .card__price{
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;  
+  }
+  .flex-span{
+      font-size: 15px;
+  }
