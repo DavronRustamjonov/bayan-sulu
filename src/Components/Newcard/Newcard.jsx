@@ -3,7 +3,7 @@ import { HeartFilled} from '@ant-design/icons'
 import tenge from '/tenge.svg'
 import tengegreen from '/tengegreen.svg'
 
-export default function Newcard({data}) {
+export default function Newcard({data}){
   return (
     <div className='newcard'>
         <div className='container newcard__container'>
